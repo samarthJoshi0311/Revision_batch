@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sibling</title>
+    <style>
+        .parent+p{
+            background: lightgoldenrodyellow;
+            color: blue;
+        }
+        h2+p{
+            background: lightgreen;
+            color: chocolate;
+        }
+        .Parent~P{
+            background: darkgoldenrod;
+            color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <h1>Siblings(+)</h1>
+<div class="parent">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+</div>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+<h2>Now Apply</h2>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+<hr>
+<h3>GenerL SIBLINGS(~)</h3>
+<div class="Parent">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+</div>
+<P>Lorem iPsum, dolor sit amet consectetur adiPisicing elit.</P>
+<P>Lorem iPsum, dolor sit amet consectetur adiPisicing elit.</P>
+<P>Lorem iPsum, dolor sit amet consectetur adiPisicing elit.</P>
+</body>
+</html>

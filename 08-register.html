@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet">
+</head>
+<body>
+    <form>
+    <table border="1"  bgcolor="lightseagreen">
+        <tr>
+            <td colspan="2" align="center">
+              <b>Registration form</b>
+           </td> 
+        </tr>
+        <tr>
+            <td class="name">Name</td>
+            <td><input class="k" type="text" placeholder=
+                "Enter your name"  required pattern="[a-zA-Z]+" title="Only Letters"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input class="k" type="email"></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input class="k" type="password" maxlength="8" minlength="4"></td>
+        </tr>
+        <tr>
+            <td>Mobail No.</td>
+            <td><input class="k" type="number" maxlength="10" minlength="10"></td>
+        </tr>
+        <tr>
+            <td>Birth Date</td>
+            <td><input class="k" type="datetime-local"></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" name="x">Male 
+                <input type="radio" name="x">Female 
+                <input type="radio" name="x">Other 
+            </td>
+        </tr>
+        <tr>
+            <td>Uplode your image</td>
+            <td><input class="k" type="file"></td>
+        </tr>
+        <tr>
+            <td>Height</td>
+            <td><input class="k" type="number"></td>
+        </tr>
+        <tr>
+            <td>Select your country</td>
+            <td>
+                <select>
+                    <option enable>INDIA</option>
+                    <option>USA</option>
+                    <option>CANADA</option>
+                    <option>UK</option>
+                    <option disabled>PAKISTAN</option>
+                    <option>OTHER</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td><textarea class="k" cols="30" rows="4"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><input class="k" type="submit" value="register"></td>
+        </tr>
+
+    </table>
+</form>
+</body>
+</html>

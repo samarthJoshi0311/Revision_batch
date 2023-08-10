@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psuedu class-element</title>
+    <style>
+        img{
+            height: 100px;
+            width: 100px;
+        }
+        img:hover{
+            height: 50px;
+            width: 50px; 
+        }
+        h2::after {
+        content: " ^*";
+        }
+        h2::before {
+        content: "*^ ";
+        }
+        p::first-line{
+        color: darkred;
+        font-size: 35px;
+      }
+      p::selection{
+        background-color:red;
+        color: blue;
+      }
+      p::first-letter{
+        font-size: 60px;
+        color: teal;
+      }
+    </style>
+</head>
+<body>
+    <h1>Psuedu Class Selector(:)</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png">
+    <hr>
+    <br>
+    <h2>Psuedu Element Selector(::)</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, quis quasi. Nemo et repudiandae sunt! Delectus qui quos perspiciatis totam, recusandae, incidunt nesciunt doloribus aspernatur iusto, nam minima enim ut?</p>
+</body>
+</html>

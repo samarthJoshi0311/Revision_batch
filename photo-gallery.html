@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  .main {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .gallery {
+    width: 300px;
+    margin: 8px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .gallery:hover {
+    /* transform: scale(1.05); */
+    transform: rotate(10deg);
+  }
+
+  h1{
+    text-align: center;
+  }
+
+
+  /* GRID PHOTO GALLERY */
+
+  .main-1{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    justify-items: center;
+  }
+
+  .photo{
+    width: 300px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ;
+  }
+
+  .photo img {
+    width: 100%;
+    display: block;
+  }
+
+  .photo:hover {
+    transform: scale(1.05);
+  }
+</style>
+<title> Photo Gallery</title>
+</head>
+<body>
+    <h1>Flex Photo Gallery</h1>
+  <div class="main">
+  <div class="gallery">
+    <img src="img.jpeg" alt="Image 1">
+  </div>
+  <div class="gallery">
+    <img src="img.jpeg" alt="Image 2">
+  </div>
+  <div class="gallery">
+    <img src="img.jpeg" alt="Image 3">
+  </div>
+  <div class="gallery">
+    <img src="img.jpeg" alt="Image 4">
+  </div>
+  <div class="gallery">
+    <img src="img.jpeg" alt="Image 5">
+  </div>
+  <div class="gallery">
+    <img src="img.jpeg" alt="Image 6">
+  </div>
+  <div class="gallery">
+    <img src="img.jpeg" alt="Image 7">
+  </div>
+  <div class="gallery">
+    <img src="img.jpeg" alt="Image 8">
+  </div>
+  <div class="gallery">
+    <img src="img.jpeg" alt="Image 9">
+  </div>
+  <div class="gallery">
+    <img src="img.jpeg" alt="Image 10">
+  </div>
+  <div class="gallery">
+    <img src="img.jpeg" alt="Image 11">
+  </div>
+  <div class="gallery">
+    <img src="img.jpeg" alt="Image 12">
+  </div>
+<div class="gallery">
+  <img src="img.jpeg" alt="Image 13">
+</div>
+<div class="gallery">
+  <img src="img.jpeg" alt="Image 14">
+</div>
+</div>
+
+<hr>
+
+<h1>Grid Photo Gallery</h1>
+
+<div class="main-1">
+    <div class="photo">
+        <img src="images.jpeg" alt="Image 1">
+      </div>
+      <div class="photo">
+        <img src="images.jpeg" alt="Image 2">
+      </div>
+      <div class="photo">
+        <img src="images.jpeg" alt="Image 3">
+      </div>
+      <div class="photo">
+        <img src="images.jpeg" alt="Image 4">
+      </div>
+      <div class="photo">
+        <img src="images.jpeg" alt="Image 5">
+      </div>
+      <div class="photo">
+        <img src="images.jpeg" alt="Image 6">
+      </div>
+      <div class="photo">
+        <img src="images.jpeg" alt="Image 7">
+      </div>
+      <div class="photo">
+        <img src="images.jpeg" alt="Image 8">
+      </div>
+      <div class="photo">
+        <img src="images.jpeg" alt="Image 9">
+      </div>
+      <div class="photo">
+        <img src="images.jpeg" alt="Image 10">
+      </div>
+      <div class="photo">
+        <img src="images.jpeg" alt="Image 11">
+      </div>
+      <div class="photo">
+        <img src="images.jpeg" alt="Image 12">
+      </div>
+    <div class="photo">
+      <img src="images.jpeg" alt="Image 13">
+    </div>
+    <div class="photo">
+      <img src="images.jpeg" alt="Image 14">
+    </div>
+</div>
+</body>
+</html>
